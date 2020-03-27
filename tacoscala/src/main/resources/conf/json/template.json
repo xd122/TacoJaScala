@@ -1,0 +1,16 @@
+{
+  "appName": "metadata",
+  "table": {
+    "tName": "scala-experiment-user"
+  },
+  "fields": [
+    {
+      "name": "age",
+      "type": "int"
+    },
+    {
+      "name": "username",
+      "type": "string"
+    }
+  ]
+}

@@ -23,6 +23,7 @@
         <scala.version>2.11.8</scala.version>
         <scala.binary.version>2.11</scala.binary.version>
         <taco.junit.version>4.13</taco.junit.version>
+        <taco.fasterxml.jackson.version>2.10.2</taco.fasterxml.jackson.version>
     </properties>
 
 </project>

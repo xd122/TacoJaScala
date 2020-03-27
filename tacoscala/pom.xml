@@ -11,5 +11,29 @@
 
     <artifactId>tacoscala</artifactId>
 
+    <dependencies>
+        <!-->对应JsonTemplate的json依赖得仓库包<-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${taco.fasterxml.jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${taco.fasterxml.jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${taco.fasterxml.jackson.version}</version>
+        </dependency>
+        <!-- Jackson module for scala object marshalling and unmarshalling -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.module</groupId>
+            <artifactId>jackson-module-scala_2.11</artifactId>
+            <version>${taco.fasterxml.jackson.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
