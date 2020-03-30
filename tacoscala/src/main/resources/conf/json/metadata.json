@@ -1,0 +1,31 @@
+{
+  "appName": "spark-data-warehouse-etl",
+  "authUser": {
+    "uName": "tacoxaing",
+    "passWd": "tacoxiang123",
+    "gName": "data-warehouse"
+  },
+  "source": [
+    {
+      "sourceDataBase": "datawarehouse",
+      "sourceTable": "offlineTable1",
+      "sourcePartition": "dt",
+      "sourcePartitionValue": "20200330",
+      "sourcePath": "hdfs://xxx-2"
+    },
+    {
+      "sourceDataBase": "datawarehouse",
+      "sourceTable": "offlineTable2",
+      "sourcePartition": "dt",
+      "sourcePartitionValue": "20200330",
+      "sourcePath": "hdfs://xxx-2"
+    }
+  ],
+  "sink": {
+    "sinkDataBase": "datawarehouse",
+    "sinkTable": "offlineSinkTable1",
+    "sinkPartition": "dt",
+    "sinkPartitionValue": "20200330",
+    "sinkPath": "hdfs://xxx-sink-1"
+  }
+}
